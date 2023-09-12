@@ -1,0 +1,34 @@
+{
+    "books" :  [
+         {
+             "name":"computer science",
+             "price": 123
+         },
+         {
+            "name": "socialogy",
+            "price": 432
+         },
+         {
+            "name": "geography",
+            "price": 321
+         },
+         {
+            "name": "harry potter",
+            "price": 800
+         },
+         {
+            "name": "chamber of secrets",
+            "price": 432
+         },
+         {
+            "name": "jojo bizare adventures",
+            "price": 457
+         },
+         {
+            "name": "berserk",
+            "price": 897
+         }
+     ]
+     
+ 
+  }

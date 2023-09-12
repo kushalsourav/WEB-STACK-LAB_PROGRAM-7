@@ -1,0 +1,11 @@
+
+.book-name, .book-price {
+    padding: 0;
+    margin: 0;
+}
+.book-name {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 12px 0;
+}
