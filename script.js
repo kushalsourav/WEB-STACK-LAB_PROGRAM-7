@@ -10,7 +10,7 @@ fetchbtn.addEventListener('click',async () => {
     const books = await fetch('index.json').then(res => 
         res.json())
    books.books.map((book) => {
-    const ele = `<h1 class="book-name"> Name = ${book.name} </h2> <p class="book-price"> Price =  ${book.price} </p>`
+    const ele = `<div class="card"><h1 class="card-head"> Name = ${book.name} </h2> <p class="card-price"> Price =  ${book.price} </p></div>`
     dataDisplay.insertAdjacentHTML('beforeend',ele)
     })
     
